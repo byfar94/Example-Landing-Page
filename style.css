@@ -51,13 +51,13 @@ nav{
 .hero-content>h1{
     color: #f9faf8;
     font-size: 48px;
-    padding: 0px;
+    padding: 0px 75px 0px 0px;
     margin: 0px;
 }
 .hero-content>p{
     color: #e5e7eb;
     font-size: 18px;
-    padding: 0px;
+    padding: 0px 75px 0px 0px;
     margin: 0px
 }
 .signup-button{
@@ -76,11 +76,41 @@ nav{
     padding: 60px 0px 185px;
     border: 1px bold black;
     opacity: 75%;
-    
 }
 
 /*section-one*/
+.section-one-background{
+    margin: 50px 0 50px;
+}
+.section-one-header{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 .section-one{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-div{
+    display: block;
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.section-one-image{
+    width: 150px;
+    height: auto;
+}
+.infos-ps{
+    text-align: center;
+    width: 150px;
+    height: auto;
 }

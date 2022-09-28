@@ -1,0 +1,43 @@
+/* header */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+Header{
+    background-color: #1f2937;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.menu-one{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.menu-items{
+    display: inline;
+}
+/*hero*/
+.hero-content>h1{
+    color: #f9faf8;
+    font-size: 48px;
+
+}
+.hero-content>p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.button signup-button{
+
+}

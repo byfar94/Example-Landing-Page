@@ -1,1 +1,2 @@
 # Example-Landing-Page
+Developing my first landing page using a Project Odin assignment as a reference. Attempting to get my design as close as possible so I can practice trying to duplicate a design im given. 

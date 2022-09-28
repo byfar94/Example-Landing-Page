@@ -1,8 +1,9 @@
 /* header */
 body{
+    font-family:'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-}
+} 
 Header{
     background-color: #1f2937;
 }
@@ -14,8 +15,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .menu-one{
     list-style: none;
@@ -29,15 +30,57 @@ nav{
     display: inline;
 }
 /*hero*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding-right: 110px;
+    padding-bottom: 110px;
+    margin-top: 0px;
+}
 .hero-content>h1{
     color: #f9faf8;
     font-size: 48px;
-
+    padding: 0px;
+    margin: 0px;
 }
 .hero-content>p{
     color: #e5e7eb;
     font-size: 18px;
+    padding: 0px;
+    margin: 0px
 }
-.button signup-button{
+.signup-button{
+ background-color: #3882f6;
+ color: #f9faf8;
+ margin-bottom: 150px;
+ font-size: 24px;
+ padding: 5px 25px;
+ border-radius: 8px;
+ border: 0px;
+ margin: 5px 0px 0px;
+}
+.hero-image{ /*figure out how to round corners of image correctly*/
+    width: 300px;
+    height: auto;
+    padding: 60px 0px 185px;
+    border: 1px bold black;
+    opacity: 75%;
+    
+}
+
+/*section-one*/
+.section-one{
+    display: flex;
 
 }

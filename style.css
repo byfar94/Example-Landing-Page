@@ -29,6 +29,19 @@ nav{
 .menu-items{
     display: inline;
 }
+.menu-items:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.menu-link{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.menu-link:hover{
+    color: #3882f6;
+    text-decoration: none;
+    transition: 0.2s;
+}
 
 /*hero*/
 .hero{
@@ -36,7 +49,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    padding-left: 150px;
+    padding-left: 140px;
     padding-right: 200px;
 }
 .hero-content{
@@ -64,6 +77,11 @@ nav{
 .button{
     border-radius: 8px;
     font-size: 24px;
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
 }
 .signup-button{
  background-color: #3882f6;
@@ -159,10 +177,11 @@ nav{
     width: 850px;
     height: auto;
     border-radius: 10px;
+    padding: 50px 100px 50px;
+    margin: 50px 0px 50px;
 
 }
 .cta-info{
-    padding: 25px 0px 25px 90px;
     color: #e5e7eb;
     text-align: left;
 }
@@ -176,15 +195,34 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 90px 25px 0px;
 }
 .cta-button{
     background-color: transparent;
-    border: 2px solid;
+    border: 3px solid;
     border-color: #e5e7eb;
     color: #e5e7eb;
     font-size: 18px;
     font-style: bold;
     padding: 5px 50px 5px;
     flex: auto;
+}
+/*footer  */
+footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* following two commands for keeping footer at the bottom and allowing it to flex to content*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+.copyright{
+    padding: 20px;
+    color: #e5e7eb;
 }

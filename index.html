@@ -15,16 +15,16 @@
     <nav>
         <h1 class="logo">Your Logo Here</h1>
         <ul class="menu-one">
-            <li class="menu-items">Home</li>
-            <li class="menu-items">About</li>
-            <li class="menu-items">Contact</li>
+            <li class="menu-items"><a class="menu-link" href="#">Home</a></li>
+            <li class="menu-items"><a class="menu-link" href="#about-here">About</a></li>
+            <li class="menu-items"><a class="menu-link" href="#cta-now">Contact</a></li>
         </ul>
     </nav>
     <div class="hero">
         <div class="hero-content">
             <h1>This website is awesome</h1>
             <P>This website has some font that goes under the main title to explain your project or business</P>
-            <button class="button signup-button">sign up</button>
+            <button class="button signup-button" onclick="location.href='#cta-now'">sign up</button>
         </div>
         <div class="hero-image-container">
             <img class="hero-image" src="images/hello.jpg" alt="Image did not load properly">
@@ -32,34 +32,30 @@
     </div>
   </header>
   <main> 
-    <div class="section-one-background">
+    <div class="section-one-background" id="about-here">
       <h2 class="section-one-header">Some random information</h2>
       <section class="section-one">
         <article class="infos info-one">
           <div class="image-div">
             <img class="section-one-image">
-
           </div>
           <p class="infos-ps">subtext under and illustration image</p>
         </article>
         <article class="infos info-two">
          <div class="image-div">
             <img class="section-one-image">
-
           </div>
           <p class="infos-ps">subtext under and illustration image</p>
         </article>
         <article class="infos info-three">
           <div class="image-div">
             <img class="section-one-image">
-
           </div>
           <p class="infos-ps">subtext under and illustration image</p>
         </article>
         <article class="infos info-four">
           <div class="image-div">
             <img class="section-one-image">
-
           </div>
           <p class="infos-ps">subtext under and illustration image</p>
         </article>
@@ -69,7 +65,7 @@
         <p class="quote-author">- Thor, God of Thunder</p>
       </section>
       <section class="cta-s">
-        <div class="cta-box">
+        <div class="cta-box" id="cta-now">
           <div class="cta-info">
             <h2>Call to Action! Your CTA Here!</h2>
             <p>Sign up for our product by clicking that button over there</p>
